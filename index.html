@@ -30,7 +30,7 @@
                 <div class="logo">
                     Kevin
                 </div>
-                <div class="menu">
+                <div class="menu d-none d-lg-block">
                     <ul class="navbar-nav">
                         <li class="nav-item">
                             <a href="index.html" class="nav-link">Home</a>
@@ -43,12 +43,26 @@
                         </li>     
                     </ul>
                 </div>
+                <div class="sidenav d-block d-lg-none">
+                    <div class="dropdown">
+                        <button class="btn btn-outline-dark dropdown-toggle" id="dropDownMenu" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="ri-menu-line"></i>
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropDownMenu">
+                            <li><a href="index.html" class="dropdown-item">Home</a></li>
+                            <li><a href="#projects" class="dropdown-item">Projects</a></li>
+                            <li><a href="contact.html" class="dropdown-item">Contacts</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a href="#" class="dropdown-item disabled">Encrypt</a></li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-            <div class="website-body mx-3">
+            <div class="website-body">
                 <div class="welcome-message text-center col-6">
                     <p>Hi. I'm Kevin, a website designer and developer. Welcome to my website.</p>
                 </div>
-                <div class="personal-info-dashboard col-5 text-wrap">
+                <div class="personal-info-dashboard col-5">
                     <p>
                         I am a website developer based in Nairobi, Kenya with 3 years in popular frameworks such as Vue and Laravel. I have had the 
                         pleasure to work with companies in various industries.
