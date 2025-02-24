@@ -65,24 +65,36 @@
                 <div class="personal-info-dashboard col-5">
                     <p>
                         I am a website developer based in Nairobi, Kenya with 3 years in popular frameworks such as Vue and Laravel. I have had the 
-                        pleasure to work with companies in various industries.
+                        pleasure to work with companies in various industries. I have been part of these projects below and it has been a wonderful experience.
+                        I love tech and personally grateful to learn what I have learned and Im also open to learn new things. I am a firm believer of the <a href="https://en.wikipedia.org/wiki/Dunning%E2%80%93Kruger_effect">Dunning Kruger</a> effect 
+                        and it continues to motivate me daily to reach new heights. 
                     </p>
                 </div>
                 <div class="container projects" id="projects">
                     <h2 class="text-center">Projects</h2>
                     <div class="row project-overview">
-                        <div class="project-banner col-4">
+                        <div class="col-lg-4 d-flex justify-content-center">
+                            <a href="www.darasa.app" class="text-reset text-decoration-none">
+                                <div class="project-banner">
+                                    <img src="./img/Darasa project.png" alt="Darasa">
+                                    <p>Darasa</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 d-flex justify-content-center">
+                            <a href="www.anyduka.com" class="text-reset text-decoration-none">
+                                <div class="project-banner">
+                                    <img src="./img/Anyduka project.png" alt="Anyduka">
+                                    <p>Anyduka</p>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- <div class="project-banner col-4">
 
                         </div>
                         <div class="project-banner col-4">
 
-                        </div>
-                        <div class="project-banner col-4">
-
-                        </div>
-                        <div class="project-banner col-4">
-
-                        </div>
+                        </div> -->
                     </div>
                 </div>
                 <div class="container stack mt-5">
@@ -111,13 +123,34 @@
                             Kevin
                         </div>
                         <div class="footer-links">
-                            <i class="ri-github-fill"></i>
-                            <i class="ri-twitter-x-line"></i>
+                            <a href="www.github.com/Lambda1001" class="text-reset text-decoration-none"><i class="ri-github-fill"></i> Github Profile</a>
+                            <a href="www.x.com/KevinFrettin" class="text-reset text-decoration-none"><i class="ri-twitter-x-line"></i> Twitter/X</a>
                         </div>
-                        <i class="ri-copyright-line"></i><span id="year"></span>
+                        <span id="year"></span>
                     </div>
                 </footer>
             </div>
         </div>
     </body>
+    <script>
+        tippy('#css', {
+            content: 'CSS',
+        })
+
+        tippy('#bootstrap', {
+            content: 'Bootstrap',
+        })
+
+        tippy('#vue', {
+            content: 'Vue',
+        })
+
+        tippy('#laravel', {
+            content: 'Laravel'
+        })
+
+        tippy('#sql', {
+            content: 'SQL',
+        })
+    </script>
 </html>

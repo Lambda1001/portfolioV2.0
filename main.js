@@ -6,7 +6,7 @@ window.addEventListener('load',()=>{
     
     const year = document.getElementById('year');
 
-    year.innerHTML = d.getFullYear();
+    year.innerHTML = '<i class="ri-copyright-line"></i>'+ d.getFullYear();
 })
 
 tippy('#css', {
